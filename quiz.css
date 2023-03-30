@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: aquamarine;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.box{
+    width: 400px;
+    /* height: 300px; */
+    background-color: white;
+    border-radius: 5px;
+    padding: 7px;
+}
+.row{
+    padding: 1.5rem 1.5rem 10px 1.5rem;
+    display:flex ;
+}
+.row input{
+    margin-right: 10px;
+    cursor: pointer;
+}
+#btn{
+    width: 100%;
+    padding: 1rem;
+    background-color: aquamarine;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+
+}
